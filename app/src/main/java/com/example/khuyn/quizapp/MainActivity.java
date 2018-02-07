@@ -1,5 +1,6 @@
 package com.example.khuyn.quizapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,8 +17,10 @@ public class MainActivity extends AppCompatActivity {
     private Button bTrue;
     private Button bFalse;
     private Button bNext;
+    private Button bHint;
     private TextView tvQuestion;
-    private TextView tvHint;
+    public static int displayHint;
+//    private TextView tvHint;
 
     private Question[] mQuestionBank = new Question[]{
         new Question(R.string.question1, false, R.string.hint1),
@@ -41,8 +44,14 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "OnCreate() called");
         setContentView(R.layout.activity_main);
 
-        tvHint = (TextView) findViewById(R.id.tvHint);
-
+        bHint = (Button) findViewById(R.id.bHint);
+        bHint.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent hintIntent = new Intent(MainActivity.this, HintActivity.class);
+                MainActivity.this.startActivity(hintIntent);
+            }
+        });
         if(savedInstanceState != null){
             counter = savedInstanceState.getInt(KEY_INDEX,0);
         }
@@ -88,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         Log.d(TAG, "onResume() called");
     }
-
+//
     @Override
     public void onPause(){
         super.onPause();
@@ -117,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
         int question = mQuestionBank[counter].getmTextResId();
         int hint = mQuestionBank[counter].getHint();
         tvQuestion.setText(question);
-        tvHint.setText(hint);
+        displayHint = hint;
     }
 
     private void checkAnswer(boolean userPressedTrue){

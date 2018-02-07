@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/QuizApp.iml" filepath="$PROJECT_DIR$/.idea/QuizApp.iml" />
+      <module fileurl="file://C:\Users\khuyn\AndroidStudioProjects\QuizApp\.idea\QuizApp.iml" filepath="C:\Users\khuyn\AndroidStudioProjects\QuizApp\.idea\QuizApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\khuyn\AndroidStudioProjects\QuizApp\app\app.iml" filepath="C:\Users\khuyn\AndroidStudioProjects\QuizApp\app\app.iml" />
     </modules>
   </component>
 </project>
