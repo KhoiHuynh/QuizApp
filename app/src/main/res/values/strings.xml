@@ -6,18 +6,18 @@
     <string name="question4">Dogs are susceptible to parasites such as ticks, mites and fleas</string>
     <string name="question5">The Chihuahua is the smallest dog breed in existence</string>
     <string name="question6">Dogs have wet noses because it helps them smell things better.</string>
-    <string name="question7">The Basenji is the only breed of dog that can't bark</string>
+    <string name="question7">The Basenji is the only breed of dog that can\'t bark</string>
     <string name="question8">Newfoundlands are excellent swimmers, because they have webbed feet</string>
-    <string name="question9">Dogs don't have muscles in their ears</string>
+    <string name="question9">Dogs don\'t have muscles in their ears</string>
     <string name="question10">Humans tend to have better night vision than dogs do</string>
 
     <string name="hint1">Hint: Dogs are better than us</string>
     <string name="hint2">Hint: One color</string>
     <string name="hint3">Hint: Babies are exspensive</string>
-    <string name="hint4">Hint: This one is easy...</string>
+    <string name="hint4">Hint: This one is easy</string>
     <string name="hint5">Hint: Can a chihuahua fit in a mug?</string>
     <string name="hint6">Hint: If you had a dry nose, it would be pretty unforcomtable, imagine a dog</string>
-    <string name="hint7">Hint: A Basenji's larynx is located in a different place than most other dogs</string>
+    <string name="hint7">Hint: A Basenji\'s larynx is located in a different place than most other dogs</string>
     <string name="hint8">Hint: They love to swim</string>
     <string name="hint9">Hint: Dogs can hear 4 times better than Humans</string>
     <string name="hint10">Hint: Dogs are better than us</string>
